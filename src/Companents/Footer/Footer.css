@@ -1,0 +1,12 @@
+@media only screen and (max-width: 520px) {
+  .footer__inner {
+    display: block !important;
+    text-align: center;
+  }
+
+  .footer__logo {
+    margin-top: 2px !important;
+    margin-bottom: 12px !important;
+  }
+  
+}

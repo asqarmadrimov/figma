@@ -1,0 +1,17 @@
+.skills__inner {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr 1fr);
+  gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.skills__speaking {
+   
+}
+
+
+
+/* skills__speaking
+skills__writing
+skills__reading
+skills__listening */

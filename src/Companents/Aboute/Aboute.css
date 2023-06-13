@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1000px) {
+  .aboute__text, .aboute__item-text {
+    font-size: 15px !important;
+  }
+
+  .aboute__img {
+    max-width: 336px !important;
+    max-height: 336px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aboute__title {
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .aboute__inner {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .aboute__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 368px) {
+  .aboute__img {
+    max-width: 306px !important;
+    max-height: 306px !important;
+  }
+}

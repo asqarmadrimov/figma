@@ -1,0 +1,14 @@
+.nav__link:hover {
+  color: black !important;
+}
+
+@media only screen and (max-width: 775px) {
+  .header__gamburger {
+    display: block !important;
+  }
+
+  .header__nav, .header__btn {
+    display: none !important;
+  } 
+  
+}
